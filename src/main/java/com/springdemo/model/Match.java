@@ -2,7 +2,12 @@ package com.springdemo.model;
 
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+@Entity
 public class Match {
+
+    @Id
     private long id;
     private String city;
     private LocalDate date;
@@ -12,17 +17,17 @@ public class Match {
     private String team2;
     private String tossWinner;
     private String tossDecision;
-    private String MatchWinner;
+    private String matchWinner;
     private String result;
     private String resultMargin;
     private String umpire1;
     private String umpire2;
 
 
-    public int getId() {
+    public long getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
     public String getCity() {
@@ -74,10 +79,10 @@ public class Match {
         this.tossDecision = tossDecision;
     }
     public String getMatchWinner() {
-        return MatchWinner;
+        return matchWinner;
     }
     public void setMatchWinner(String matchWinner) {
-        MatchWinner = matchWinner;
+        this.matchWinner = matchWinner;
     }
     public String getResult() {
         return result;
