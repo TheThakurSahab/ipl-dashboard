@@ -1,4 +1,4 @@
-package com.springdemo.model;
+package com.springdemo.ipldashboard.model;
 
 import java.time.LocalDate;
 
@@ -7,7 +7,6 @@ import javax.persistence.Id;
 
 @Entity
 public class Match {
-
     @Id
     private long id;
     private String city;
@@ -18,7 +17,7 @@ public class Match {
     private String team2;
     private String tossWinner;
     private String tossDecision;
-    private String matchWinner;
+    private String MatchWinner;
     private String result;
     private String resultMargin;
     private String umpire1;
@@ -28,7 +27,7 @@ public class Match {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -97,11 +96,11 @@ public class Match {
     }
 
     public String getMatchWinner() {
-        return matchWinner;
+        return MatchWinner;
     }
 
     public void setMatchWinner(String matchWinner) {
-        this.matchWinner = matchWinner;
+        MatchWinner = matchWinner;
     }
 
     public String getResult() {
@@ -116,8 +115,8 @@ public class Match {
         return resultMargin;
     }
 
-    public void setResultMargin(String resultMargin) {
-        this.resultMargin = resultMargin;
+    public void setResultMargin(String result_margin) {
+        this.resultMargin = result_margin;
     }
 
     public String getUmpire1() {
