@@ -3,6 +3,7 @@
 Browse your favorite IPL teams and access their past games details, wins and losses ratios - accessible by team and tournament year.
 
 This is an app developed using Spring Boot and React JS.
+Try this out https://iplmatch.herokuapp.com/#/
 
 
 ## Screenshots
