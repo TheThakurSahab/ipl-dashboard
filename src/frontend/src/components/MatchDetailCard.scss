@@ -3,9 +3,11 @@
     grid-template-columns: 1fr 1fr;
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 15px;
 
     .match-date, .match-venue, .match-result{
         margin-top: 10px;
+        
 
     }
     .additional-details{

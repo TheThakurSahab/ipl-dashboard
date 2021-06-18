@@ -4,7 +4,6 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    border-radius: 25px;
 
     .team-name-section{
         grid-column: span 3;
@@ -18,10 +17,13 @@
     }
     .win-loss-section{
         justify-self: center;
+        padding: 40px;
+        text-align: center;
     }
 
     .match-detail-section{
         grid-column: span 4;
+        
     }
     .more-link{
         align-self: center;
