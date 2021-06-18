@@ -9,11 +9,13 @@ This is an app developed using Spring Boot and React JS.
 
 ### Team Page
 
-![Team Page Page](/README/team-page.jpg)
+![Team Page Page](/README/team-page1.jpg)
+![Team Page Page](/README/team-page2.jpg)
 
 ### Matches Page
 
-![Matches Page](/README/matches-page.jpg)
+![Matches Page](/README/matches-page1.jpg)
+![Matches Page](/README/matches-page2.jpg)
 
 ## Technologies
 
